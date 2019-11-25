@@ -1,6 +1,5 @@
 #include "stdio.h"
 #include "myBank.h"
-#include "math.h"
 
 void open_account(){
 	printf("Opening an account \n");
