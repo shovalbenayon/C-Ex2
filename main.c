@@ -1,18 +1,17 @@
 #include "stdio.h"
 #include "myBank.h"
 
-void open_account();
-void check_balance();
-void deposite(); 
-void withdrawal(); 
-void close(); 
-void interest(); 
-void print(); 
-void exit_accounts(); 
-
 int main() {
 	int boolean = 1;
 	printf("Welcome to the bank's ATM \n");
+	printf("To open an account, Please press 'O' \n");
+	printf("To check your balance , Please press 'B' \n");
+	printf("To deposite cash to your bank account , Please press 'D' \n");
+	printf("To withdrawal cash from your bank account , Please press 'W' \n");
+	printf("To add interest rate for every open accounts , Please press 'I' \n");
+	printf("To close your bank account , Please press 'C' \n");
+	printf("To print every open bank account's , Please press 'P' \n");
+	printf("To close all open bank's account , Please press 'E' \n");
 	while (boolean){
 		char operation;
 		printf("Transaction type?	\n");
